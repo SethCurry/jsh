@@ -1,0 +1,20 @@
+{
+  "name": "jsh",
+  "version": "0.0.1",
+  "description": "A javascript shell",
+  "main": "dist/index.js",
+  "repository": "https://github.com/SethCurry/jsh",
+  "author": "Seth Curry <seth@scurry.io>",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "@types/node": "^13.7.0",
+    "ts-node": "^8.6.2",
+    "typescript": "^3.7.5"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node ./src/index.ts"
+  },
+  "dependencies": {}
+}
